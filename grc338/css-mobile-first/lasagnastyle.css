@@ -1,0 +1,86 @@
+/*CSS DOCUMENT*/
+
+html, body, div, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {margin: 0; padding: 0; border: 0; font-size: 100%; font: inherit;} /*My edited version of the Eric Meyer’s reset tool. You may want to include this in all of your future CSS files. */
+
+img {
+    width: 100%; /*Please leave this line.*/
+     display: block;
+}
+
+body {
+    background-color: rgb(240, 240, 240); /* Not totally white. */
+	color: rgb(0, 3, 0);  /* Not totally black. */
+	line-height: 150%; 	/* A little extra leading. */
+	font-family: sans-serif;
+    text-transform: italic;
+}
+
+h1 {
+    background-color: rgb(255, 132, 32);
+    color: rgb(255, 255, 255); 
+	font-size: 2em;
+	padding: 1em 1.3em .5em; 
+	font-weight: 700;
+    font-family: Sutro, bold;
+    line-height:  140%;
+}
+
+h2 {
+	background-color: rgb(255, 132, 32);
+	color: rgb(255, 223, 183);
+	font-size: 1.6em;
+	padding: .2em 1.5em 1em;
+	font-family: Sutro, bold;
+}
+
+figcaption {
+    padding: .5em;
+    margin: .5em 2.2em;
+    font-family: poppins, sans-serif;
+    font-style: italic;
+    font-weight: 400;
+    margin: 1em, 1em, .5em;
+}
+
+h3 {
+	margin: 2em 2.2em .5em; /*Three values again. You got the idea.*/
+	font-size: 1.3em;
+	color: rgb(255, 132, 32);
+	font-weight: 300;
+	text-transform: uppercase ;
+	letter-spacing: .1em; /*Just an extra tracking for bold uppercase letters. Try 0.1em */
+    font-family: Sutro, serif;
+}
+
+ul {
+    margin: .2em 1.7em 1.5em 1.7em;
+    line-height: 180%;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+}
+
+ol {
+    margin: .2em 1.7em 1.5em 2em;
+    line-height: 160%;
+    font-family: poppins, sans-serif;  
+    font-weight: 400;  
+    font-style: normal;
+
+}
+
+li {
+    margin: 1em
+
+}
+
+footer {
+    background-color: rgb(255, 132, 32);
+    padding: 1em 2.5em 1em;
+    font-family: poppins, sans-serif;
+    color: rgb(255, 255, 255);
+    font-weight: 300%; 
+    font-size: 1em;
+}
+
+/*By the way, when we use the slash-asterisk combo, it’s a comment on the CSS and it’s meant for human beings. The machine knows it is not supposed to process anything until it finds a asterisk-slash combo that ends the comment on the CSS. */
