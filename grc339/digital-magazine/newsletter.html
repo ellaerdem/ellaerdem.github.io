@@ -23,7 +23,7 @@
                             <li><a href="#">Trends</a></li>
                             <li><a href="#">Tools & Tech</a></li>
                             <li><a href="#">Spotlight</a></li>
-                            <li><a href="photo-gallery.html">Community</a></li>
+                            <li><a href="photogallery.html">Community</a></li>
                             <li><a href="newsletter.html">Subscribe</a></li>
                         </ul>
                     </nav>
@@ -94,7 +94,10 @@
                     <option value="WY">Wyoming</option>
                 </select>
             </li>
-            <li><label for="street-address">Zip code:</label> <input type="text" name="zip-code" id="zip-code" placeholder="zip code" /></li>
+            <li>
+                <label for="zip-code">Zip code:</label>
+                <input type="text" name="zip-code" id="zip-code" placeholder="zip code" />
+              </li>
             <li><label for="email">Email:</label> <input type="email" name="email" id="email" placeholder="confirmation email" /></li>
             <li><label for="phone">Phone:</label> <input type="tel" name="phone" id="phone" placeholder="your phone number" /></li>
         </ul>
@@ -103,7 +106,7 @@
         <h3>Design Interest</h3>
         <ul>
             <li>
-                <label for="Design">Design type:</label>
+                <label for="design">Design type:</label>
                 <select id="design" name="design">
                     <option value=""></option>
                     <option value="Animation">Animation</option>
@@ -118,7 +121,8 @@
         <h3>Subscription Type</h3>
         <ul>
             <li><input type="checkbox" id="option1" value="newsletter1" /> <label for="option1">Keyframe</label></li>
-            <p>Our weekly updates of motion design trends</p>
+            <!-- NOTE: add descriptions for each type -->
+            <li><p>Our weekly updates of motion design trends</p></li> 
             <li><input type="checkbox" id="option2" value="newsletter2" /> <label for="option2">In Motion</label></li>
             <li><input type="checkbox" id="option3" value="newsletter3" /> <label for="option3">Master Comp</label></li>
         </ul>
