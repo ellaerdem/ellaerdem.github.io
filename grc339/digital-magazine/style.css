@@ -117,6 +117,7 @@ p {
     color: rgb(3, 1, 0);
     font-size: 1.5em;
   }
+
   
   a {
     text-decoration: none;
@@ -148,7 +149,7 @@ p {
   figcaption {
     color: rgb(109, 109, 109);
     font-style: italic;
-    margin: 0.2rem 0.5rem 1em;
+    margin: 0.2rem 0.5rem 1rem;
   }
   
   footer {
@@ -164,6 +165,12 @@ p {
     margin-left: 0.5em;
     margin-bottom: 0em;
   }
+
+  article figcaption {
+    margin-top: 1em;
+
+  }
+  
   
   /* PHOTO GALLERY */
   
@@ -356,6 +363,10 @@ p {
     font-weight: 400;
     font-style: normal;
   }
+
+  main.newsletter {
+    padding: 0 .5em;
+  }
   
   button {
     font-weight: bold;
@@ -418,6 +429,7 @@ p {
       grid-template-columns: 3fr 1fr;
       grid-gap: 1em;
     }
+
   
     header,
     footer {
@@ -479,7 +491,7 @@ p {
     }
   
     section.mainstory h2:hover,
-    section.secondary h2:hover {
+    section.secondary h2:hover, section.tertiary h2:hover {
       color: rgb(115, 125, 162);
     }
   
@@ -568,7 +580,7 @@ p {
     }
   
     footer {
-      border-top: 0.1em solid rgb(115, 125, 162);
+      border-top: 0.1px solid rgb(115, 125, 162);
     }
   
     section.mainstory h2 {
